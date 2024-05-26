@@ -1,0 +1,83 @@
+.sidebar {
+  width: 400px;
+}
+
+.flex {
+  display: flex;
+  gap: 8px;
+}
+
+.max-w-150 {
+  max-width: 150px;
+}
+
+.navbar {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  height: 40px;
+  margin: 24px;
+}
+
+.navbar a {
+  color: #333;
+  margin-right: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 16px;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.container textarea {
+  min-width: 600px;
+}
+
+pre {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.code-indent {
+  width: 16px;
+}
+
+.login-link {
+  display: absolute;
+  left: 8px;
+  top: 3px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #333;
+  background: #f0f0f0;
+  text-decoration: none;
+  width: 80px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
