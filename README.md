@@ -41,5 +41,3 @@ INSERT INTO notes (title, text, user_id) VALUES
 ```
 
 `/api/notes` should now provide data!
-
-Supabae config lives in `/utils`
